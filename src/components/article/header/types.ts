@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 export type ArticleHeaderProps = {
-    title: string;
-    subtitle?: ReactNode;
-    disambiguation?: ReactNode;
+    readonly title: string;
+    readonly subtitle?: ReactNode;
+    readonly disambiguation?: ReactNode;
 };

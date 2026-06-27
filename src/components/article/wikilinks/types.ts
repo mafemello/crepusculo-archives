@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 
 export type WikilinksProps = PropsWithChildren<{
-    href?: string;
-    className?: string;
+    readonly href?: string;
+    readonly className?: string;
 }>;

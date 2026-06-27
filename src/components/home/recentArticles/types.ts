@@ -1,8 +1,8 @@
 export type RecentArticle = {
-    title: string;
-    href: string;
+    readonly title: string;
+    readonly href: string;
 };
 
 export type RecentArticlesProps = {
-    articles: RecentArticle[];
+    readonly articles: RecentArticle[];
 };

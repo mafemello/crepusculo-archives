@@ -1,5 +1,5 @@
 export type FeaturedArticleProps = {
-    title: string;
-    description: string;
-    href: string;
+    readonly title: string;
+    readonly description: string;
+    readonly href: string;
 };

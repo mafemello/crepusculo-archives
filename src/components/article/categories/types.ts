@@ -1,6 +1,6 @@
 export type CategoriesProps = {
-    categories: {
-        name: string;
-        href?: string;
+    readonly categories: {
+        readonly name: string;
+        readonly href?: string;
     }[];
 };
